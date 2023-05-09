@@ -1,0 +1,134 @@
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius ;
+  -moz-border-radius: $radius ;
+  -ms-border-radius: $radius ;
+  border-radius: $radius ;
+}
+
+
+@mixin transition($time){
+
+  transition:         all $time ease-in-out;
+  -webkit-transition: all $time ease-in-out;
+  -moz-transition:    all $time ease-in-out;
+  -o-transition:      all $time ease-in-out;
+}
+
+
+@mixin text($font-size,$font-weight){
+  font-size:$font-size;
+  font-weight: $font-weight;
+}
+
+
+@mixin rotate($degree){
+  -ms-transform: rotate($degree);
+  -webkit-transform:rotate($degree);
+  transform:rotate($degree);
+}
+
+@mixin box-shadow(){
+  -webkit-box-shadow: 0px 1px 1px 0px rgba(51,51,51,1);
+  -moz-box-shadow: 0px 1px 1px 0px rgba(51,51,51,1);
+  box-shadow: 0px 1px 1px 0px rgba(51,51,51,1);
+
+}
+
+@mixin box-size(){
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@mixin scale($size){
+  -moz-transform:scale($size);
+  -webkit-transform:scale($size);
+  -o-transform:scale($size);
+  -ms-transform:scale($size);
+  transform:scale($size);
+}
+
+@mixin column($count){
+  -webkit-column-count: $count; /* Chrome, Safari, Opera */
+  -moz-column-count: $count; /* Firefox */
+  column-count: $count;
+}
+
+
+@mixin textoverflow(){
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display:inline-block;
+}
+
+@mixin opacity($ie,$other){
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$ie)"; /*Opacity=50*/
+
+  /* IE 5-7 */
+  filter: alpha(opacity=$ie); /*Opacity=50*/
+
+  /* Netscape */
+  -moz-opacity: $other;  /*0.5*/
+
+  /* Safari 1.x */
+  -khtml-opacity: $other; /*0.5*/
+
+  /* Good browsers */
+  opacity: $other;  /*0.5*/
+}
+
+
+// prefix declarations *** Mixins for HOver Css
+@mixin prefixed($property, $value) {
+  @if $webkit == true {
+    -webkit-#{$property}: #{$value};
+  }
+
+  @if $moz == true {
+    -moz-#{$property}: #{$value};
+  }
+
+  @if $ms == true {
+    -ms-#{$property}: #{$value};
+  }
+
+  @if $o == true {
+    -o-#{$property}: #{$value};
+  }
+
+  #{$property}: #{$value};
+}
+
+// prefix keyframes
+@mixin keyframes($name) {
+  @if $webkit == true {
+    @-webkit-keyframes #{$name} {
+      @content;
+    }
+  }
+
+  @if $moz == true {
+    @-moz-keyframes #{$name} {
+      @content;
+    }
+  }
+
+  @if $ms == true {
+    @-ms-keyframes #{$name} {
+      @content;
+    }
+  }
+
+  @if $o == true {
+    @-o-keyframes #{$name} {
+      @content;
+    }
+  }
+
+  @keyframes #{$name} {
+    @content;
+  }
+}

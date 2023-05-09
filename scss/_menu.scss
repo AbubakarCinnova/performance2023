@@ -1,0 +1,27 @@
+.nav > li > a:focus,
+.nav > li > a:hover {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.navbar-toggle {
+    border: solid 1px  #b5dac5;
+}
+
+.navbar-toggle .icon-bar {
+    background:  #b5dac5;
+}
+.navbar-form{
+    border-top: 0px;
+    border-bottom: 0px;
+    box-shadow: none;
+}
+.navbar-collapse{
+    border-top: 0px;
+    border-bottom: 0px;
+    box-shadow: none;
+}
