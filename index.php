@@ -209,20 +209,11 @@
       <div class="row">
         <div class="col-md-6">
           <h2>Your Comfort Is Our Business</h2>
-          <p>911 Mechanical Heating and Cooling is the premier HVAC company in the southeast Michigan area. Since
-            1995,
-            we have been proudly serving the local community with our outstanding heating and air conditioning
-            services.
-            We are a family-owned and operated business that has built its reputation on high quality, value, and a
-            worry-free customer experience. Our NATE-certified HVAC technicians are at the top of their field and
-            continually receive training to improve their knowledge. From routine maintenance to emergency repairs to
-            quality installation of high-efficiency home comfort systems, give us a call today!</p>
-
-
+          <p>Performance Heating and Cooling is the premier HVAC company in the Heath, Ohio area. Since 2005, we have been proudly serving the local community with our outstanding heating and air conditioning services. We are a family-owned and operated business that has built its reputation on high quality, value, and a worry-free customer experience. Our NATE-certified HVAC technicians are at the top of their field and continually receive training to improve their knowledge. From routine maintenance to emergency repairs to quality installation of high-efficiency home comfort systems, give us a call today!</p>
 
         </div>
         <div class="col-md-6 iframe-wrap">
-          <iframe src="https://www.youtube.com/embed/yAoLSRbwxL8" width="480" height="300" aframeborder="0"></iframe>
+          <img src="<?php echo $base_url ?>/img/performance heath oh (1).jpg" alt="" style="width:100%">
 
         </div>
       </div>
