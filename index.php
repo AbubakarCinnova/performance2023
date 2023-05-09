@@ -148,12 +148,12 @@
       </div>
       <div class="col-lg-2 col-sm-4">
         <div class="text-center blue-boxes">
-          <a href="<?php echo $base_url ?>/radiant-boilers.php">
+          <a href="<?php echo $base_url ?>/heat-pumps.php">
             <div class="icon">
-              <img src="https://www.schmidtheating.com/images/cincinnati boiler services-1.jpg" alt=""
+              <img src="<?php echo $base_url ?>/img/heat pump (1).png" alt=""
                 class="img-responsive">
             </div>
-            <h4>Boiler <br>Services</h4>
+            <h4>Heat <br> Pumps</h4>
             <p> </p>
           </a>
         </div>
