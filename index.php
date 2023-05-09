@@ -213,7 +213,7 @@
 
         </div>
         <div class="col-md-6 iframe-wrap">
-          <img src="<?php echo $base_url ?>/img/performance heath oh (1).jpg" alt="" style="width:100%">
+          <img src="<?php echo $base_url ?>/img/performance heath oh (1).jpg" alt="" style="width:75%">
 
         </div>
       </div>
