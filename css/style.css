@@ -2463,7 +2463,11 @@ ul li{
 .footer-logos-wrap img{
   width: 210px;
 }
-
+@media (max-width:500px) {
+  .footer-logos-wrap .premier-logo{
+    margin-left: 0px;
+  }
+}
 .footer-logos-wrap .premier-logo{
   margin-left: 20px;
   margin-top: 20px;
