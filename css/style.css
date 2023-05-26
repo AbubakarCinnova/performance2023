@@ -2465,7 +2465,7 @@ ul li{
 }
 @media (max-width:500px) {
   .footer-logos-wrap .premier-logo{
-    margin-left: 0px;
+    margin-left: 0px !important;
   }
 }
 .footer-logos-wrap .premier-logo{

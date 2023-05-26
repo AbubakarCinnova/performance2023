@@ -261,11 +261,7 @@ jQuery('navbar-nav li').hover(function() {
                         <li><a href="<?php echo $base_url ?>/tankless.php">Tankless Water Heater</a></li>-->
                   </ul>
         <li><a href="<?php echo $base_url ?>/air-quality.php" class="dropdown-toggle">Air Quality</a>
-              <ul class="dropdown-menu">  
-
-                        <li><a href="<?php echo $base_url ?>/iwave.php">iWave Air Purifier</a></li>
-        </li>
-      </ul>
+        
         <li><a href="<?php echo $base_url ?>/service-area.php">Service Area</a></li>
 
         <li><a href="<?php echo $base_url ?>/specials.php">Specials</a></li>
