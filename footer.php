@@ -22,7 +22,7 @@
                         <div class="col-md-5 col-sm-12 col-xs-12 footer-item">
 
                                 <h3>About</h3>
-                                <p><img src="<?php echo $base_url ?>/img/logo-footer.png"> <img src="<?php echo $base_url ?>/img/premier dealer black.png" alt=""></p>
+                                <p class="footer-logos-wrap"><img src="<?php echo $base_url ?>/img/logo-footer.png"> <img src="<?php echo $base_url ?>/img/premier dealer black.png" class="premier-logo" alt=""></p>
                                 <p class="light">At Performance Heating and Cooling Services, We service, repair, sell
                                         and install
                                         Residential and Commercial Heating and Cooling Systems throughout Licking, North
