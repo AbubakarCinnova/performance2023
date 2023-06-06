@@ -35,10 +35,10 @@
                         <div class="col-md-3 col-sm-12 col-xs-12 footer-item">
                                 <h3>Service Areas</h3>
 
-                                <ul class="footer-list">
+                                <ul class="footer-list" style="list-style: none; margin-left: 0;">
                                         <div class="row">
                                                 <div class="col-md-6">
-<li><a href="<?php echo $base_url ?>/service-area/Heath-Ohio-heating-and-air-conditioning-repair.php">Heath</a>
+                                        <li><a href="<?php echo $base_url ?>/service-area/Heath-Ohio-heating-and-air-conditioning-repair.php">Heath</a>
                                         </li>
                                         <li><a href="<?php echo $base_url ?>/service-area/Newark-Ohio-heating-and-air-conditioning-repair.php">Newark</a>
                                         </li>
