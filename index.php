@@ -36,7 +36,7 @@
 
       <div class="item">
         <a href="request-service.php"> <img
-            src="<?php echo $base_url; ?>/img/Performance_New_Customer_Special_Banner_2022_1000x350.jpg"
+            src="<?php echo $base_url; ?>/img/performance-banner-2.jpg"
             alt="second slide" width="100%"> </a>
       </div>
 

@@ -36,7 +36,9 @@
                                 <h3>Service Areas</h3>
 
                                 <ul class="footer-list">
-                                        <li><a href="<?php echo $base_url ?>/service-area/Heath-Ohio-heating-and-air-conditioning-repair.php">Heath</a>
+                                        <div class="row">
+                                                <div class="col-md-6">
+<li><a href="<?php echo $base_url ?>/service-area/Heath-Ohio-heating-and-air-conditioning-repair.php">Heath</a>
                                         </li>
                                         <li><a href="<?php echo $base_url ?>/service-area/Newark-Ohio-heating-and-air-conditioning-repair.php">Newark</a>
                                         </li>
@@ -62,7 +64,10 @@
                                         </li>
                                         <li><a href="<?php echo $base_url ?>/service-area/Etna-Ohio-heating-and-air-conditioning-repair.php">Etna</a>
                                         </li>
-                                        <li><a href="<?php echo $base_url ?>/service-area/Jacksontown-Ohio-heating-and-air-conditioning-repair.php">Jacksontown
+                                                </div>
+
+                                                <div class="col-md-6">
+                                                         <li><a href="<?php echo $base_url ?>/service-area/Jacksontown-Ohio-heating-and-air-conditioning-repair.php">Jacksontown
                                                 </a> </li>
                                         <li><a href="<?php echo $base_url ?>/service-area/Baltimore-Ohio-heating-and-air-conditioning-repair.php">Baltimore</a>
                                         </li>
@@ -79,7 +84,11 @@
                                         <li><a href="<?php echo $base_url ?>/service-area/Gratiot-Ohio-heating-and-air-conditioning-repair.php">Gratiot</a>
                                         </li>
                                         <li><a href="<?php echo $base_url ?>/service-area/Pleasantville-Ohio-heating-and-air-conditioning-repair.php">Pleasantville</a>
-                                        </li>
+                                        </li> 
+                                                </div>
+                                        </div>
+                                        
+                                      
                                 </ul>
                         </div>
                         <div class="col-md-4 col-sm-12 col-xs-12 footer-item">
