@@ -8,8 +8,15 @@
  <h2>Installation Guide</h2>
 
     <p>At Performance Heating and Cooling. we know that the decision to purchase new heating and air conditioning equipment can be an intimidating and confusing process. We also know that most home and business owners only make this decision a handful of times in their lives, if ever. This guide is designed to walk you through this process step by step. We want to make the decision to work with us as easy as possible.</p>
-    <p><img src="<?php echo $base_url ?>/img/scheduling (2).jpg" style="float: right; width: 30%; margin-left: 20px;" alt="image" class="img-responsive" > <strong>1. Scheduling </strong> </p>
+
     <p> <strong>1. Scheduling</strong> </p>
+    
+<div class="row">
+        <div class="column">
+                <p style="text-align: center;"><img style="width: 50%;padding: 5px;" src="img/scheduling (2).jpg"></p>
+        </div>
+    </div>
+
     <p>Scheduling is easy. A customer service specialist is available to take your call to schedule a free in-home consultation. 
     Appointment times are incredibly flexible. We prefer that if there is more than one decision maker involved in the process 
     (and there usually is!) that everyone involved be present for the appointment.</p>
