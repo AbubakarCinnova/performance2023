@@ -13,7 +13,7 @@
     
 <div class="row">
         <div class="column">
-                <p style="text-align: center;"><img style="width: 35%;padding: 5px;" src="img/scheduling-1.jpg"> <img style="width: 50%; padding: 5px;" src="img/scheduling-02.jpg"></p>
+                <p style="text-align: center;"><img style="width: 35%;padding: 5px;" src="img/scheduling (2).jpg"></p>
         </div>
     </div>
 
