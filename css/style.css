@@ -1549,6 +1549,7 @@ a:hover {
 .navbar {
   background-color: #d51c1c;
   border-radius: 0;
+  border: 0;
 }
 .navbar-nav > li > a {
   font-size: 14px;
