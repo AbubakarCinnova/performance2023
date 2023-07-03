@@ -62,7 +62,7 @@
     <p>You may think the air quality in your Millersport home is cleaner than the outdoor air, but if you find yourself going about your day with itchy eyes or sneezing, you could be wrong. The U.S. EPA has estimated indoor air can be between 2 to 5 times more polluted than the outdoor environment, ranking indoor air pollutants as a top five environmental health concerns.</p>
     <p>If you suspect the indoor air quality in your Millersport home is poor, Performance will be able to help. We offer indoor air quality services such as sales and repairs on whole house air purifiers, and humidifiers, as well as UV germicidal lights and installation and air filtration system replacement. Our specialized indoor air quality products and services ensure each of our valued clients and families can breathe cleaner indoor air in their homes. View our <!--<a href="<?php //echo $base_url ?>/air-quality.php">--><a href="<?php echo $base_url ?>/air-quality.php">indoor air quality</a> products</p>
 
-    <h2>Millersport, Ohio Heating Services</h2>
+    <h2>Millersport, Ohio Air Conditioning Services</h2>
     <ul>
       <li>Residential and Commercial</li>
       <li>Energy Efficient Central Air Systems</li>
@@ -79,8 +79,8 @@
       <li>Commercial HVAC</li>
     </ul>
     <br>
-
-    <h2>Millersport, Ohio Air Conditioning Services</h2>
+    
+    <h2>Millersport, Ohio Heating Services</h2>
 
     <ul>
     <li>Residential Furnaces</li>

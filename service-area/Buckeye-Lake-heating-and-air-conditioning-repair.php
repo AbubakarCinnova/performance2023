@@ -60,7 +60,7 @@
 <p>If you suspect the indoor air quality in your Buckeye lake home is poor, Performance will be able to help. We offer indoor air quality services such as sales and repairs on whole house air purifiers, and humidifiers, as well as UV germicidal lights and installation and air filtration system replacement. Our specialized indoor air quality products and services ensure each of our valued clients and families can breathe cleaner indoor air in their homes.   
 View our <a href="<?php echo $base_url ?>/air-quality.php">indoor air quality</a> products</p>
 
-<h2>Buckeye lake, Ohio Heating Services</h2>
+<h2>Buckeye lake, Ohio Air Conditioning Services</h2>
 <ul>
       <li>Residential and Commercial</li>
       <li>Energy Efficient Central Air Systems</li>
@@ -77,8 +77,8 @@ View our <a href="<?php echo $base_url ?>/air-quality.php">indoor air quality</a
       <li>Commercial HVAC</li>
     </ul>
     <br>
-
-<h2>Buckeye lake, Ohio Air Conditioning Services</h2>
+    
+    <h2>Buckeye lake, Ohio Heating Services</h2>
 
     <ul>
     <li>Residential Furnaces</li>
