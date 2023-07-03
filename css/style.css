@@ -1873,6 +1873,7 @@ textarea {
     /*padding-left: 0;*/
   }
   .navbar-nav > li > a {
+    height: 50px;
     padding: 15px 14px;
   }
   .navbar-nav > li > a:hover {
