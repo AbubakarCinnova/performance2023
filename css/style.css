@@ -2430,46 +2430,46 @@ textarea {
   border-radius: 0px !important;
   text-shadow: none;
 }
-ul li{
+ul li {
   font-size: 18px;
-    font-weight: 500;
-    line-height: 25px;
-    font-family: "Open Sans", sans-serif;
-    color: #000;
+  font-weight: 500;
+  line-height: 25px;
+  font-family: "Open Sans", sans-serif;
+  color: #000;
 }
 
-.full-width-img{
+.full-width-img {
   width: 100%;
 }
-.half-width-img-wrap{
+.half-width-img-wrap {
   display: flex;
   justify-content: center;
 }
-.half-width-img{
+.half-width-img {
   width: 50%;
   margin: 0 auto;
 }
-@media (max-width:768px) {
-  .half-width-img{
+@media (max-width: 768px) {
+  .half-width-img {
     width: 100%;
   }
 }
 
-@media (min-width:1200px) {
-  .footer-logos-wrap{
+@media (min-width: 1200px) {
+  .footer-logos-wrap {
     display: flex;
   }
 }
 
-.footer-logos-wrap img{
+.footer-logos-wrap img {
   width: 210px;
 }
-@media (max-width:500px) {
-  .footer-logos-wrap .premier-logo{
+@media (max-width: 500px) {
+  .footer-logos-wrap .premier-logo {
     margin-left: 0px !important;
   }
 }
-.footer-logos-wrap .premier-logo{
+.footer-logos-wrap .premier-logo {
   margin-left: 20px;
   margin-top: 20px;
 }
