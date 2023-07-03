@@ -1,26 +1,69 @@
-<title>Performance heating and Cooling| Financing</title> 
+<title>Performance heating and Cooling| Financing</title>
 <?php include_once('header.php') ?>
 
-<main style=" background-color: #eceaea; padding-bottom: 30px; padding-top: 20px;">
- 
-<div class="container" >
- <h2>About</h2>
- <p>My goal as Owner of Performance Heating and Cooling Services LLC. is to make doing business with us Easy, by offering high quality products and affordable services and making sure to maintain a well trained and friendly staff. We want to make sure we are always the company that is differentiated by our many high quality products and services.</p>
-<br>
-	 <p style="text-align: center;"><img style="width: 50%;" src="<?php echo $base_url ?>/img/dan_milhorn.jpg" alt="image" class="img-responsive" ></p>
-<br>
+<main
+  style="background-color: #eceaea; padding-bottom: 30px; padding-top: 20px"
+>
+  <div class="container">
+    <h1>About</h1>
+    <br />
+    <p style="text-align: center">
+      <img
+        style="width: 60%"
+        src="<?php echo $base_url ?>/img/Dan-1.jpg"
+        alt="image"
+        class="img-responsive"
+      />
+    </p>
+    <br />
 
-	<h2>DAN MILHORN OWNER PERFORMANCE HEATING AND COOLING SERVICES</h2>
-	<p>Performance Heating and Cooling Services is a customer focused heating, air-conditioning and new HVAC construction company, Our company specializes in designing, engineering, and installing complete comfort systems for owners of new and existing homes just like yours.</p>
+    <h2>Dan Milhorn Owner Performance Heating and Cooling Services LLC</h2>
+    <p>
+      Welcome to Performance Heating and Cooling Services, where our focus is on
+      providing exceptional heating, air-conditioning, and HVAC construction
+      solutions tailored to meet your needs. We specialize in creating custom
+      comfort systems for both new and existing homes, ensuring optimal
+      performance and ultimate satisfaction.
+    </p>
+    <p>
+      At Performance Heating and Cooling Services, we understand the importance
+      of a hassle-free and enjoyable customer experience. That's why our entire
+      team is dedicated to delivering outstanding service from start to finish.
+      If we ever fall short, we are committed to making it right and exceeding
+      your expectations.
+    </p>
+    <p>
+      Our team consists of highly trained professionals who have met our
+      rigorous standards of excellence. When you choose us, you can trust that
+      our technicians will arrive at your home in clean, well-stocked trucks,
+      sporting crisp uniforms. We take pride in respecting the cleanliness of
+      your home by utilizing drop cloths and booties to ensure that no mess is
+      left behind. Rest assured that when we complete our work, we will leave
+      your home in pristine condition.
+    </p>
+    <p>
+      At Performance Heating and Cooling Services, we believe in going above and
+      beyond to provide a unique and compelling experience for our valued
+      customers. From our meticulous attention to detail to our commitment to
+      customer satisfaction, we strive to set ourselves apart as the premier
+      choice for all your heating, air-conditioning, and HVAC construction
+      needs.
+    </p>
+    <p>
+      Contact us today to discover the Performance Heating and Cooling Services
+      difference. Let us create the perfect comfort system for your home,
+      designed to meet your unique requirements and deliver unparalleled
+      performance. Experience the excellence and dedication that have made us a
+      trusted name in the industry.
+    </p>
 
-
-
-	<p>Our entire company works hard to make your experience with us hassle-free and enjoyable. Should we make a mistake, we will make it right.</p>
-
-	<p>All Performance Heating and Cooling Services, employees are tested to meet our high standards of employment. We guarantee our employees will arrive at your home in clean, well stocked trucks, clean uniforms, and utilize drop cloths and booties to ensure that the cleanliness of your home is respected. Upon leaving we will also clean our work areas in your home.</p>
- 
-</div>    
-</main>    
+    <p>
+      <a class="btn btn-warning" href="<?php echo $base_url ?>/contact-us.php"
+        >Contact Us</a
+      ><br />
+    </p>
+  </div>
+</main>
 <?php      
 include_once('footer.php');    
-?>     
+?>
