@@ -24,7 +24,7 @@
       <div class="col-md-12">
         <p class="text-center">
           <img src="<?php echo $base_url ?>/img/Newark.jpg" alt="Performance Heating and Cooling Newark Ohio"
-            class="img-responsive" width="50%">
+            class="img-responsive" width="50%"> <br>
         </p>
 
         <h1>Experience Unmatched Heating and Cooling Services in Newark, Ohio</h1>
