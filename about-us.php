@@ -10,7 +10,7 @@
     <p style="text-align: center">
       <img
         style="width: 60%"
-        src="<?php echo $base_url ?>/img/dan.jpg"
+        src="<?php echo $base_url ?>/img/Dan-1.jpg"
         alt="image"
         class="img-responsive"
       />
