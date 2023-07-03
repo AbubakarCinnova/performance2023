@@ -24,7 +24,7 @@
 	Hanover<br>
 	Hartford<br>
 	Hebron<br>
-	Johnstown<br>
+	<a href="<?php echo $base_url ?>/service-area/Johnstown-Ohio-heating-and-air-conditioning-repair.php">Johnstown</a><br>  
 	Kirkersville<br>
 	St. Louisville<br>
 	Utica<br>
