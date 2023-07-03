@@ -10,7 +10,7 @@
 
 	<h2>We Serve all of Licking County of Ohio including:</h2>
 	<p><a href="<?php echo $base_url ?>/service-area/Heath-Ohio-heating-and-air-conditioning-repair.php">Heath</a><br>  
-	New Albany  <br>
+	<p><a href="<?php echo $base_url ?>/service-area/New-Albany-Ohio-heating-and-air-conditioning-repair.php">New Albany</a><br>  
 	<a href="<?php echo $base_url ?>/service-area/Newark-Ohio-heating-and-air-conditioning-repair.php">Newark</a><br>  
 	Appletown<br>
 	Homer<br>
