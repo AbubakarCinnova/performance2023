@@ -19,7 +19,7 @@
 	Alexandria<br>
 	Buckeye Lake<br>
 	Chatham<br>
-	Granville<br>
+	<a href="<?php echo $base_url ?>/service-area/Granville-heating-and-air-conditioning-repair.php">Granville</a><br>  
 	Gratiot<br>
 	Hanover<br>
 	Hartford<br>
