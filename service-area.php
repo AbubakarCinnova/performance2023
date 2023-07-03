@@ -14,7 +14,7 @@
 	<a href="<?php echo $base_url ?>/service-area/Newark-Ohio-heating-and-air-conditioning-repair.php">Newark</a><br>  
 	Appletown<br>
 	Homer<br>
-	Pataskala<br>
+	<a href="<?php echo $base_url ?>/service-area/Pataskala-Ohio-heating-and-air-conditioning-repair.php">Pataskala</a><br>  
 	Reynoldsburg<br>
 	Alexandria<br>
 	Buckeye Lake<br>
