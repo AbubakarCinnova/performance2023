@@ -27,7 +27,7 @@
             class="img-responsive" width="50%"> <br>
         </p>
 
-        <h1>Experience Unmatched Heating and Cooling Services in Newark, Ohio</h1>
+        <h2>Experience Unmatched Heating and Cooling Services in Newark, Ohio</h2>
 
         <p>When it comes to reliable and professional heating and cooling services in Newark, Ohio, Performance Heating
           and Cooling stands out from the competition. With our exceptional expertise and commitment to customer
