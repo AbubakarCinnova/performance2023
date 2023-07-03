@@ -29,10 +29,10 @@
 	St. Louisville<br>
 	Utica<br>
 </p>
-	
-	<h2>We Serve These Areas of Fairfield County of Ohio:</h2>
-	<p>Pickerington<br>
-	Reynoldsburg<br>
+
+<h2>We Serve These Areas of Fairfield County of Ohio:</h2>
+<p>Pickerington<br>
+<a href="<?php echo $base_url ?>/service-area/Reynoldsburg-Ohio-heating-and-air-conditioning-repair.php">Reynoldsburg</a><br>  
 	Canal Winchester<br>
 	Baltimore<br>
 	Buckeye Lake<br>
