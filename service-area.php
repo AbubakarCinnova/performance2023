@@ -6,12 +6,12 @@
 <div class="container" >
 
 		<h1>SERVICE AREA</h1>
-
+		
 
 	<h2>We Serve all of Licking County of Ohio including:</h2>
 	<p><a href="<?php echo $base_url ?>/service-area/Heath-Ohio-heating-and-air-conditioning-repair.php">Heath</a><br>  
 	New Albany  <br>
-	Newark  <br>
+	<a href="<?php echo $base_url ?>/service-area/Newark-Ohio-heating-and-air-conditioning-repair.php">Newark</a><br>  
 	Appletown<br>
 	Homer<br>
 	Pataskala<br>
