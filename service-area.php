@@ -23,7 +23,7 @@
 	Gratiot<br>
 	Hanover<br>
 	Hartford<br>
-	Hebron<br>
+	<a href="<?php echo $base_url ?>/service-area/Hebron-Ohio-heating-and-air-conditioning-repair.php">Hebron</a><br>  
 	<a href="<?php echo $base_url ?>/service-area/Johnstown-Ohio-heating-and-air-conditioning-repair.php">Johnstown</a><br>  
 	Kirkersville<br>
 	St. Louisville<br>

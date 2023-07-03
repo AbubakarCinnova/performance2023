@@ -19,7 +19,7 @@
 
   <div class="col-md-12">
   <p class="text-center">
-  <img src="<?php echo $base_url ?>/img/Granville2.jpg" alt="HVAC Granville, Ohio" class="img-responsive" width="50%">  </p>
+  <img src="<?php echo $base_url ?>/img/Granville2.jpg" alt="Performance Heating and Cooling Granville Ohio" class="img-responsive" width="50%">  </p>
   <br>
         <h2>Experience Unmatched Heating and Cooling Services in Granville, Ohio</h2>
 
