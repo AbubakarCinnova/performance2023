@@ -33,19 +33,19 @@
 <h2>We Serve These Areas of Fairfield County of Ohio:</h2>
 <p>Pickerington<br>
 <a href="<?php echo $base_url ?>/service-area/Reynoldsburg-Ohio-heating-and-air-conditioning-repair.php">Reynoldsburg</a><br>  
-	Canal Winchester<br>
-	Baltimore<br>
-	Buckeye Lake<br>
-	Lithopolis<br>
-	Millersport<br>
-	Pleasantville<br>
-	Thurston<br>
+Canal Winchester<br>
+Baltimore<br>
+Buckeye Lake<br>
+Lithopolis<br>
+Millersport<br>
+Pleasantville<br>
+Thurston<br>
 </p>
 
-	<h2>We Serve these Areas Of Franklin County Ohio:</h2>
-	<p>New Albany<br>
-	Reynoldsburg<br>
-	Canal Winchester<br>
+<h2>We Serve these Areas Of Franklin County Ohio:</h2>
+<p>New Albany<br>
+Reynoldsburg<br>
+<a href="<?php echo $base_url ?>/service-area/Canal-Winchester-Ohio-heating-and-air-conditioning-repair.php">Canal Winchester</a><br>  
 	Brice<br>
 	Blacklick<br>
 	Gahanna<br>
