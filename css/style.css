@@ -2433,6 +2433,12 @@ textarea {
   border-radius: 0px !important;
   text-shadow: none;
 }
+.btn-warning:focus,
+.btn-warning:hover {
+  background-color: #3d3031 !important;
+  transition: 0.3s ease-in-out;
+}
+
 ul li {
   font-size: 18px;
   font-weight: 500;
