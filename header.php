@@ -188,7 +188,7 @@
 
             <div class="container">
 
-                <div class="container-fluid">
+                <div class="container-fluid" style="padding-left:0;">
 
                     <!-- Brand and toggle get grouped for better mobile display -->
 
@@ -217,17 +217,6 @@
 
                         <ul class="nav navbar-nav">
 
-                            <!--<li><a href="<?php echo $base_url ?>/"><img src="<?php echo $base_url ?>/img/home-icon.png" width="25" style="margin-top: -4px;font-size: 18px;"></a></li>
--->
-                            <!-- <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About</a>
-
-             <ul class="dropdown-menu">
-
-                <li><a href="<?php echo $base_url ?>/about.php">About</a></li>
-                <li><a href="<?php echo $base_url ?>/Raving-Fans-Referral-Program.php">Raving Fans Referral Program</a></li>
-
-                <li><a href="<?php echo $base_url ?>/Being-Green.php">Being Green</a></li>
--->
                             <li><a href="<?php echo $base_url ?>/"><img
                                         src="<?php echo $base_url ?>/img/home_1.png"></a></li>
 

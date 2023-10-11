@@ -1518,6 +1518,7 @@ a:hover {
     justify-content: center;
   }
 }
+
 .mid_header img {
   margin: 0 auto;
 }
@@ -2468,6 +2469,9 @@ ul li {
 @media (max-width: 768px) {
   .half-width-img {
     width: 100%;
+  }
+  .header-btn {
+    margin-top: 18px;
   }
 }
 
