@@ -166,7 +166,7 @@
                 <div class="col-md-3 col-sm-12 col-xs-12 call-to">
 
                     <h3>Call for appointment</h3>
-                    <a href="callto:7409294328">
+                    <a href="callto:7409294328" style="text-decoration:none;">
                         <h2>(740) 929-4328</h2>
                     </a>
                     <style type="text/css">
