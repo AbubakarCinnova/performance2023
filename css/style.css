@@ -2316,6 +2316,8 @@ textarea {
 .navi-gat {
   color: #fff;
   font-size: 17px;
+  position: relative;
+  top: -12px;
 } /*@media (max-width: 767px).navbar-nav .open .dropdown-menu {    padding-bottom: 12px !important;    display: block;}*/ /*@media (max-width: 767px) {    .navbar-toggle {        display: block;    }}*/ /*edited by rizwan*/
 .paitson-btn-liked {
   border-color: #ee001c;
