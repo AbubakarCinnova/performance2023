@@ -11,6 +11,10 @@
     <meta name="description" content="">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
     <meta name="google-site-verification" content="de073gIEjMxoaGj0MEMEj0Uom_LA8aiKNsTURixNjZI" />
 
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -75,6 +79,9 @@
     <script src="<?php echo $base_url ?>/js/modernizr-2.8.3.min.js"></script>
 
 </head>
+
+
+
 
 <body>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -220,7 +227,10 @@
                             <li><a href="<?php echo $base_url ?>/"><img
                                         src="<?php echo $base_url ?>/img/home_1.png"></a></li>
 
-                            <li><a href="<?php echo $base_url ?>/about.php">About</a>
+                            <li><a href="<?php echo $base_url ?>/about.php">About <span
+                                        class="material-symbols-outlined arrow-dropdown">
+                                        arrow_drop_down
+                                    </span></a>
                                 <ul class="dropdown-menu">
                                     <!-- <li><a href="<?php echo $base_url ?>/why-choose-us.php">Why Choose Us</a></li>-->
                                     <li><a href="<?php echo $base_url ?>/testimonials.php">Testimonials</a></li>
@@ -228,7 +238,10 @@
                             </li>
                         </ul>
 
-                        <li><a href="<?php echo $base_url ?>/heating.php">Heating</a>
+                        <li><a href="<?php echo $base_url ?>/heating.php">Heating <span
+                                    class="material-symbols-outlined arrow-dropdown">
+                                    arrow_drop_down
+                                </span></a>
 
                             <ul class="dropdown-menu">
 
@@ -238,14 +251,20 @@
                             </ul>
                         </li>
 
-                        <li><a href="<?php echo $base_url ?>/cooling.php" class="dropdown-toggle">Cooling</a>
+                        <li><a href="<?php echo $base_url ?>/cooling.php" class="dropdown-toggle">Cooling <span
+                                    class="material-symbols-outlined arrow-dropdown">
+                                    arrow_drop_down
+                                </span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="<?php echo $base_url ?>/mini-split.php">Ductless Mini Split</a></li>
                                 <li><a href="<?php echo $base_url ?>/air-conditioners.php">AC Products</a></li>
                                 <!--    <li><a href="<?php echo $base_url ?>/wifi-thermostats.php">Wifi Thermostat</a></li>-->
                             </ul>
 
-                        <li><a href="<?php echo $base_url ?>/" class="dropdown-toggle">Services</a>
+                        <li><a href="<?php echo $base_url ?>/" class="dropdown-toggle">Services <span
+                                    class="material-symbols-outlined arrow-dropdown">
+                                    arrow_drop_down
+                                </span></a>
                             <ul class="dropdown-menu">
 
                                 <li><a href="<?php echo $base_url ?>/generators.php">Generators</a></li>
@@ -265,7 +284,10 @@
 
                         <li><a href="<?php echo $base_url ?>/specials.php">Specials</a></li>
 
-                        <li><a href="<?php echo $base_url ?>/contact-us.php">Contact</a>
+                        <li><a href="<?php echo $base_url ?>/contact-us.php">Contact <span
+                                    class="material-symbols-outlined arrow-dropdown">
+                                    arrow_drop_down
+                                </span></a>
 
                             <ul class="dropdown-menu">
 
