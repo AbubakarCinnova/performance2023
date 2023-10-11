@@ -1752,7 +1752,7 @@ textarea {
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
 }
-.main-footer .btn,
+/* .main-footer .btn,
 .testmonial .btn {
   background: #ee001c;
   font-size: 22px;
@@ -1762,7 +1762,7 @@ textarea {
   border: 0;
   border-radius: 0;
   min-width: 210px;
-}
+} */
 .mini-footer {
   background: #010101;
   padding-top: 15px;
