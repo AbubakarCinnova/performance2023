@@ -1719,7 +1719,7 @@ textarea {
   /*   background: #040c72 !important; */
   margin-top: 40px;
 }
-.testmonial .item::before {
+/* .testmonial .item::before {
   font-family: FontAwesome;
   content: "\f10d";
   text-align: left;
@@ -1738,7 +1738,7 @@ textarea {
   padding-bottom: 35px;
   background: #181818;
 }
-.main-footer p {
+*/ .main-footer p {
   margin: 25px 0;
   color: #a8a8a8;
 }
