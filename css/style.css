@@ -2492,3 +2492,7 @@ ul li {
     color: white !important;
   }
 }
+
+.carousel-inner {
+  width: 100% !important;
+}
