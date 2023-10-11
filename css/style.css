@@ -2507,3 +2507,9 @@ ul li {
 .carousel-inner {
   width: 100% !important;
 }
+
+@media (max-width: 991px) {
+  .call-to h3 {
+    text-align: center;
+  }
+}
