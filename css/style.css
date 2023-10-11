@@ -1716,7 +1716,7 @@ textarea {
   opacity: 1;
 }
 .testmonial .btn {
-  background: #040c72 !important;
+  /*   background: #040c72 !important; */
   margin-top: 40px;
 }
 .testmonial .item::before {
