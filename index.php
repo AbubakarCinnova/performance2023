@@ -135,7 +135,7 @@
                 <div class="text-center blue-boxes">
                     <a href="<?php echo $base_url ?>/air-conditioners.php">
                         <div class="icon">
-                            <img src="https://www.schmidtheating.com/images/Asset 4.png" alt="" class="img-responsive">
+                            <img src="https://www.schmidtheating.com/img/Asset 4.png" alt="" class="img-responsive">
                         </div>
                         <h4>Air<br>Conditioning</h4>
                         <p> </p>
@@ -147,7 +147,7 @@
                 <div class="text-center blue-boxes">
                     <a href="<?php echo $base_url ?>/heating.php">
                         <div class="icon">
-                            <img src="https://www.schmidtheating.com/images/heating.png" alt="" class="img-responsive">
+                            <img src="https://www.schmidtheating.com/img/heating.png" alt="" class="img-responsive">
                         </div>
                         <h4>Heating</h4>
                         <p> </p>
@@ -169,7 +169,7 @@
                 <div class="text-center blue-boxes">
                     <a href="<?php echo $base_url ?>/mini-split.php">
                         <div class="icon">
-                            <img src="https://www.schmidtheating.com/images/mini-splits-unit-image-transparent (2).png"
+                            <img src="https://www.schmidtheating.com/img/mini-splits-unit-image-transparent (2).png"
                                 alt="" class="img-responsive">
                         </div>
                         <h4>Mini <br> Splits</h4>
@@ -181,7 +181,7 @@
                 <div class="text-center blue-boxes">
                     <a href="<?php echo $base_url ?>/financing.php">
                         <div class="icon" style="cursor: pointer;">
-                            <img src="https://www.schmidtheating.com/images/finance.png" alt="" class="img-responsive">
+                            <img src="https://www.schmidtheating.com/img/finance.png" alt="" class="img-responsive">
                         </div>
                         <h4>Financing</h4>
                         <p> </p>
