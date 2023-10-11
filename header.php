@@ -151,38 +151,36 @@
 
         <div class="clearfix"></div>
 
-        <div class="col-xs-12 mid_header">
 
-            <div class="row">
 
-                <div class="container">
+        <div class="container ">
+            <div class="row mid_header">
 
-                    <div class="col-md-3 col-sm-12 col-xs-12">
+                <div class="col-md-3 col-sm-12 col-xs-12">
 
-                        <h3>Call for appointment</h3>
-                        <a href="callto:7409294328">
-                            <h2>(740) 929-4328</h2>
-                        </a>
-                        <style type="text/css">
-                        .h-top-b {
-                            display: block;
-                        }
-                        </style>
-
-                    </div>
-
-                    <div class="col-md-6 col-sm-12 text-center hidden-xs"> <a href="<?php echo $base_url ?>"><img
-                                src="<?php echo $base_url ?>/img/logo-performance.PNG" class="img-responsive"
-                                style="width: 310px;" /></a> </div>
-
-                    <div class="col-md-3 col-sm-12 text-center"> <a href="<?php echo $base_url ?>/contact-us.php"
-                            class="btn btn-warning" style="margin-top:18px;">Request Service</a></div>
+                    <h3>Call for appointment</h3>
+                    <a href="callto:7409294328">
+                        <h2>(740) 929-4328</h2>
+                    </a>
+                    <style type="text/css">
+                    .h-top-b {
+                        display: block;
+                    }
+                    </style>
 
                 </div>
 
-            </div>
+                <div class="col-md-6 col-sm-12 text-center hidden-xs"> <a href="<?php echo $base_url ?>"><img
+                            src="<?php echo $base_url ?>/img/logo-performance.PNG" class="img-responsive"
+                            style="width: 310px;" /></a> </div>
 
+                <div class="col-md-3 col-sm-12 text-center"> <a href="<?php echo $base_url ?>/contact-us.php"
+                        class="btn btn-warning" style="margin-top:18px;">Request Service</a></div>
+
+            </div>
         </div>
+
+
 
         <div class="clearfix"></div>
 
