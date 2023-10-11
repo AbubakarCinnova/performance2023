@@ -4,94 +4,93 @@
 
 <head>
 
-<meta charset="utf-8">
+    <meta charset="utf-8">
 
-<meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-<meta name="description" content="">
+    <meta name="description" content="">
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="google-site-verification" content="de073gIEjMxoaGj0MEMEj0Uom_LA8aiKNsTURixNjZI" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="de073gIEjMxoaGj0MEMEj0Uom_LA8aiKNsTURixNjZI" />
 
-<link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-<!-- Place favicon.ico in the root directory -->
+    <!-- Place favicon.ico in the root directory -->
 
-<link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
 
-<!-- bootstrap css -->
+    <!-- bootstrap css -->
 
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
-<link rel="stylesheet" href="<?php echo $base_url ?>/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo $base_url ?>/css/bootstrap/bootstrap.min.css">
 
-<link rel="stylesheet" href="<?php echo $base_url ?>/css/bootstrap/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="<?php echo $base_url ?>/css/bootstrap/bootstrap-theme.min.css">
 
-<!-- Fontawesome css -->
+    <!-- Fontawesome css -->
 
-<link rel="stylesheet" href="<?php echo $base_url ?>/css/font-awesome.min.css">
+    <link rel="stylesheet" href="<?php echo $base_url ?>/css/font-awesome.min.css">
 
-<!-- lightbox css -->
+    <!-- lightbox css -->
 
-<link rel="stylesheet" href="<?php echo $base_url ?>/css/bootstrap-lightbox3/ekko-lightbox.min.css">
+    <link rel="stylesheet" href="<?php echo $base_url ?>/css/bootstrap-lightbox3/ekko-lightbox.min.css">
 
-<script type="text/javascript">
+    <script type="text/javascript">
+    jQuery('navbar-nav li').hover(function() {
 
-    
+        jQuery(this).find('.dropdown-menu').stop(true, true).show();
 
-jQuery('navbar-nav li').hover(function() {
+        jQuery(this).addClass('open');
 
-  jQuery(this).find('.dropdown-menu').stop(true, true).show();
+    }, function() {
 
-  jQuery(this).addClass('open');
+        jQuery(this).find('.dropdown-menu').stop(true, true).hide();
 
-}, function() {
+        jQuery(this).removeClass('open');
 
-  jQuery(this).find('.dropdown-menu').stop(true, true).hide();
+    });
+    </script>
 
-  jQuery(this).removeClass('open');
+    <!-- datetimepicker css -->
 
-});
+    <link rel="stylesheet" href="<?php echo $base_url ?>/css/bootstrap-datetimepicker/bootstrap-datetimepicker.min.css">
 
-</script>
+    <!-- owl carasoul css -->
 
-<!-- datetimepicker css -->
+    <link rel="stylesheet" href="<?php echo $base_url ?>/css/owlcarousel/owl.carousel.css">
 
-<link rel="stylesheet" href="<?php echo $base_url ?>/css/bootstrap-datetimepicker/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" href="<?php echo $base_url ?>/css/owlcarousel/owl.theme.css">
 
-<!-- owl carasoul css -->
+    <link rel="stylesheet" href="<?php echo $base_url ?>/css/owlcarousel/owl.transitions.css">
 
-<link rel="stylesheet" href="<?php echo $base_url ?>/css/owlcarousel/owl.carousel.css">
+    <!-- Custome css -->
 
-<link rel="stylesheet" href="<?php echo $base_url ?>/css/owlcarousel/owl.theme.css">
+    <link rel="stylesheet" href="<?php echo $base_url ?>/css/style.css">
 
-<link rel="stylesheet" href="<?php echo $base_url ?>/css/owlcarousel/owl.transitions.css">
+    <link rel="stylesheet" href="<?php echo $base_url ?>/css/all_effects.css">
 
-<!-- Custome css -->
-
-<link rel="stylesheet" href="<?php echo $base_url ?>/css/style.css">
-
-<link rel="stylesheet" href="<?php echo $base_url ?>/css/all_effects.css">
-
-<script src="<?php echo $base_url ?>/js/modernizr-2.8.3.min.js"></script>
+    <script src="<?php echo $base_url ?>/js/modernizr-2.8.3.min.js"></script>
 
 </head>
 
 <body>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133676341-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133676341-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-133676341-1');
-</script>
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
-<!--[if lt IE 8]>
+    gtag('config', 'UA-133676341-1');
+    </script>
+
+    <!--[if lt IE 8]>
 
 
 
@@ -123,9 +122,9 @@ jQuery('navbar-nav li').hover(function() {
 
 <![endif]-->
 
-<header>
+    <header>
 
-<!--   <div class="col-xs-12 mini_header">
+        <!--   <div class="col-xs-12 mini_header">
 
     <div class="row">
 
@@ -150,69 +149,79 @@ jQuery('navbar-nav li').hover(function() {
 
   </div> -->
 
-  <div class="clearfix"></div>
+        <div class="clearfix"></div>
 
-  <div class="col-xs-12 mid_header">
+        <div class="col-xs-12 mid_header">
 
-    <div class="row">
+            <div class="row">
 
-      <div class="container">
+                <div class="container">
 
-        <div class="col-md-3 col-sm-12 col-xs-12">
+                    <div class="col-md-3 col-sm-12 col-xs-12">
 
-          <h3>Call for appointment</h3>
-            <a href="callto:7409294328"><h2>(740) 929-4328</h2></a>
-          <style type="text/css">
-            .h-top-b{display: block;}
-          </style>
+                        <h3>Call for appointment</h3>
+                        <a href="callto:7409294328">
+                            <h2>(740) 929-4328</h2>
+                        </a>
+                        <style type="text/css">
+                        .h-top-b {
+                            display: block;
+                        }
+                        </style>
+
+                    </div>
+
+                    <div class="col-md-6 col-sm-12 text-center hidden-xs"> <a href="<?php echo $base_url ?>"><img
+                                src="<?php echo $base_url ?>/img/logo-performance.PNG" class="img-responsive"
+                                style="width: 310px;" /></a> </div>
+
+                    <div class="col-md-3 col-sm-12 text-center"> <a href="<?php echo $base_url ?>/contact-us.php"
+                            class="btn btn-warning" style="margin-top:18px;">Request Service</a></div>
+
+                </div>
+
+            </div>
 
         </div>
 
-        <div class="col-md-5 col-sm-12 text-center hidden-xs"> <a href="<?php echo $base_url ?>"><img src="<?php echo $base_url ?>/img/logo-performance.PNG" class="img-responsive" style="width: 310px;"/></a> </div>
+        <div class="clearfix"></div>
 
-        <div class="col-md-4 col-sm-12 text-center"> <a href="<?php echo $base_url ?>/contact-us.php" class="btn btn-warning" style="margin-top:18px;">Request Service</a></div>
+        <nav class="navbar">
 
-      </div>
+            <div class="container">
 
-    </div>
+                <div class="container-fluid">
 
-  </div>
+                    <!-- Brand and toggle get grouped for better mobile display -->
 
-  <div class="clearfix"></div>
+                    <div class="navbar-header">
 
-  <nav class="navbar">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span
+                                class="sr-only">Toggle navigation</span>
 
-    <div class="container">
-
-      <div class="container-fluid">
-
-        <!-- Brand and toggle get grouped for better mobile display -->
-
-        <div class="navbar-header">
-
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-
-       data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span>
-
-          <!-- <span class="icon-bar"></span>
+                            <!-- <span class="icon-bar"></span>
 
                         <span class="icon-bar"></span>
 
                         <span class="icon-bar"></span> -->
 
-          <span class="navi-gat"><i class="fa fa-bars" aria-hidden="true"></i> </span> </button>
+                            <span class="navi-gat"><i class="fa fa-bars" aria-hidden="true"></i> </span>
+                        </button>
 
-          <a href="<?php echo $base_url ?>" class="navbar-brand visible-xs"> <img src="<?php echo $base_url ?>/img/logo.png" class="img-responsive"/></a> </div>
+                        <a href="<?php echo $base_url ?>" class="navbar-brand visible-xs"> <img
+                                src="<?php echo $base_url ?>/img/logo.png" class="img-responsive" /></a>
+                    </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
+                    <!-- Collect the nav links, forms, and other content for toggling -->
 
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-          <ul class="nav navbar-nav">
+                        <ul class="nav navbar-nav">
 
-            <!--<li><a href="<?php echo $base_url ?>/"><img src="<?php echo $base_url ?>/img/home-icon.png" width="25" style="margin-top: -4px;font-size: 18px;"></a></li>
+                            <!--<li><a href="<?php echo $base_url ?>/"><img src="<?php echo $base_url ?>/img/home-icon.png" width="25" style="margin-top: -4px;font-size: 18px;"></a></li>
 -->
-            <!-- <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+                            <!-- <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About</a>
 
              <ul class="dropdown-menu">
 
@@ -221,136 +230,118 @@ jQuery('navbar-nav li').hover(function() {
 
                 <li><a href="<?php echo $base_url ?>/Being-Green.php">Being Green</a></li>
 -->
-        <li><a href="<?php echo $base_url ?>/"><img src="<?php echo $base_url ?>/img/home_1.png"></a></li>
+                            <li><a href="<?php echo $base_url ?>/"><img
+                                        src="<?php echo $base_url ?>/img/home_1.png"></a></li>
 
-        <li><a href="<?php echo $base_url ?>/about.php">About</a>
-         <ul class="dropdown-menu">
-            <!-- <li><a href="<?php echo $base_url ?>/why-choose-us.php">Why Choose Us</a></li>-->
-            <li><a href="<?php echo $base_url ?>/testimonials.php">Testimonials</a></li>
+                            <li><a href="<?php echo $base_url ?>/about.php">About</a>
+                                <ul class="dropdown-menu">
+                                    <!-- <li><a href="<?php echo $base_url ?>/why-choose-us.php">Why Choose Us</a></li>-->
+                                    <li><a href="<?php echo $base_url ?>/testimonials.php">Testimonials</a></li>
 
-</li></ul>
+                            </li>
+                        </ul>
 
-				<li><a href="<?php echo $base_url ?>/heating.php">Heating</a>
+                        <li><a href="<?php echo $base_url ?>/heating.php">Heating</a>
 
-         <ul class="dropdown-menu">
-         
-         <li><a href="<?php echo $base_url ?>/heat-pumps.php">Heat Pumps</a></li> 
-          <li><a href="<?php echo $base_url ?>/furnaces.php">Furnaces</a></li> 
-          <li><a href="<?php echo $base_url ?>/wifi-thermostat.php">Smart Thermostats</a></li>
-                   </ul>
-        </li>
+                            <ul class="dropdown-menu">
 
-         <li><a href="<?php echo $base_url ?>/cooling.php" class="dropdown-toggle" >Cooling</a>
-           <ul class="dropdown-menu">
-                        <li><a href="<?php echo $base_url ?>/mini-split.php">Ductless Mini Split</a></li>
-                          <li><a href="<?php echo $base_url ?>/air-conditioners.php">AC Products</a></li>
-                        <!--    <li><a href="<?php echo $base_url ?>/wifi-thermostats.php">Wifi Thermostat</a></li>-->
-                  </ul>
+                                <li><a href="<?php echo $base_url ?>/heat-pumps.php">Heat Pumps</a></li>
+                                <li><a href="<?php echo $base_url ?>/furnaces.php">Furnaces</a></li>
+                                <li><a href="<?php echo $base_url ?>/wifi-thermostat.php">Smart Thermostats</a></li>
+                            </ul>
+                        </li>
 
-         <li><a href="<?php echo $base_url ?>/" class="dropdown-toggle" >Services</a>
-              <ul class="dropdown-menu">
+                        <li><a href="<?php echo $base_url ?>/cooling.php" class="dropdown-toggle">Cooling</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="<?php echo $base_url ?>/mini-split.php">Ductless Mini Split</a></li>
+                                <li><a href="<?php echo $base_url ?>/air-conditioners.php">AC Products</a></li>
+                                <!--    <li><a href="<?php echo $base_url ?>/wifi-thermostats.php">Wifi Thermostat</a></li>-->
+                            </ul>
 
-                        <li><a href="<?php echo $base_url ?>/generators.php">Generators</a></li>
-                        <li><a href="<?php echo $base_url ?>/installations.php">Install Guide</a></li>
-                        <li><a href="<?php echo $base_url ?>/maintenance-plan.php">Maintenance Plan</a></li>
-                        <li><a href="<?php echo $base_url ?>/financing.php">Financing</a></li>
-                        <li><a href="<?php echo $base_url ?>/products.php">Products</a></li>
-                        <li><a href="<?php echo $base_url ?>/new-hvac-construction.php">HVAC New Construction</a></li>
-                        <!--    <li><a href="<?php echo $base_url ?>/maintenance-agreement.php">Maintenance Agreement</a></li>
+                        <li><a href="<?php echo $base_url ?>/" class="dropdown-toggle">Services</a>
+                            <ul class="dropdown-menu">
+
+                                <li><a href="<?php echo $base_url ?>/generators.php">Generators</a></li>
+                                <li><a href="<?php echo $base_url ?>/installations.php">Install Guide</a></li>
+                                <li><a href="<?php echo $base_url ?>/maintenance-plan.php">Maintenance Plan</a></li>
+                                <li><a href="<?php echo $base_url ?>/financing.php">Financing</a></li>
+                                <li><a href="<?php echo $base_url ?>/products.php">Products</a></li>
+                                <li><a href="<?php echo $base_url ?>/new-hvac-construction.php">HVAC New
+                                        Construction</a></li>
+                                <!--    <li><a href="<?php echo $base_url ?>/maintenance-agreement.php">Maintenance Agreement</a></li>
                         <li><a href="<?php echo $base_url ?>/installation.php">Installation Guide</a></li>
                         <li><a href="<?php echo $base_url ?>/tankless.php">Tankless Water Heater</a></li>-->
-                  </ul>
-        <li><a href="<?php echo $base_url ?>/air-quality.php" class="dropdown-toggle">Air Quality</a>
-        
-        <li><a href="<?php echo $base_url ?>/service-area.php">Service Area</a></li>
+                            </ul>
+                        <li><a href="<?php echo $base_url ?>/air-quality.php" class="dropdown-toggle">Air Quality</a>
 
-        <li><a href="<?php echo $base_url ?>/specials.php">Specials</a></li>
+                        <li><a href="<?php echo $base_url ?>/service-area.php">Service Area</a></li>
 
-        <li><a href="<?php echo $base_url ?>/contact-us.php">Contact</a>
+                        <li><a href="<?php echo $base_url ?>/specials.php">Specials</a></li>
 
-           <ul class="dropdown-menu">
+                        <li><a href="<?php echo $base_url ?>/contact-us.php">Contact</a>
 
-                        <li><a href="<?php echo $base_url ?>/request-estimate.php">Request Estimate</a></li>
-                        <li><a href="<?php echo $base_url ?>/request-service.php">Request Service</a></li>
-                      </ul>
-                      </li>
-          </ul>
+                            <ul class="dropdown-menu">
 
-        </div>
+                                <li><a href="<?php echo $base_url ?>/request-estimate.php">Request Estimate</a></li>
+                                <li><a href="<?php echo $base_url ?>/request-service.php">Request Service</a></li>
+                            </ul>
+                        </li>
+                        </ul>
 
-        <!-- /.navbar-collapse -->
+                    </div>
 
-      </div>
+                    <!-- /.navbar-collapse -->
 
-      <!-- /.container-fluid -->
+                </div>
 
-    </div>
+                <!-- /.container-fluid -->
 
-  </nav>
+            </div>
 
-  <script type="text/javascript">
+        </nav>
 
-    jQuery('ul.nav li.dropdown').hover(function() {
+        <script type="text/javascript">
+        jQuery('ul.nav li.dropdown').hover(function() {
 
 
 
 
 
-      jQuery(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+            jQuery(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
 
 
 
 
 
-    }, function() {
+        }, function() {
 
 
 
 
 
-      jQuery(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+            jQuery(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
 
 
 
 
 
-    });
+        });
+        </script>
 
+        <script type="text/javascript">
+        $('.dropdown').hover(function() {
 
 
 
 
 
+            $('.dropdown-toggle', this).trigger('click');
 
 
 
-</script>
 
-  <script type="text/javascript">
 
+        });
+        </script>
 
-
-
-
- $('.dropdown').hover(function(){ 
-
-
-
-
-
-  $('.dropdown-toggle', this).trigger('click'); 
-
-
-
-
-
-});
-
-
-
-
-
-</script>
-
-</header>
-
+    </header>

@@ -1508,9 +1508,9 @@ a:hover {
 .mini_header ul li:nth-child(4) i {
   background: #cd342c;
 }
-.mid_header {
+/* .mid_header {
   padding-top: 15px;
-}
+} */
 .mid_header img {
   margin: 0 auto;
 }
