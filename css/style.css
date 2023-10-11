@@ -931,7 +931,7 @@ dfn {
   font-style: italic;
 } /** Address variable `h1` font-size and margin within `section` and `article` contexts in Firefox 4+, Safari, and Chrome. */
 h1 {
-  font-size: 2em;
+  font-size: 42px;
   margin: 0.67em 0;
 } /** Address styling not present in IE 8/9. */
 mark {
@@ -1175,7 +1175,7 @@ h2 {
   font-weight: bold;
   font-size: 28px;
   font-family: "Open Sans", sans-serif;
-  color: #1e13c5;
+  color: #2e3192;
   line-height: 37px;
   margin-bottom: 15px;
 }
@@ -1190,7 +1190,7 @@ h2 {
 h1 {
   font-weight: 500;
   font-weight: bold;
-  color: #dd150f;
+  color: #2e3192;
   font-family: "Open Sans", sans-serif;
   margin: 10px 0;
 }
