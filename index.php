@@ -147,7 +147,7 @@
                 <div class="text-center blue-boxes">
                     <a href="<?php echo $base_url ?>/heating.php">
                         <div class="icon">
-                            <img src="https://www.schmidtheating.com/images/Asset 3.png" alt="" class="img-responsive">
+                            <img src="https://www.schmidtheating.com/images/heating.png" alt="" class="img-responsive">
                         </div>
                         <h4>Heating</h4>
                         <p> </p>
@@ -169,8 +169,8 @@
                 <div class="text-center blue-boxes">
                     <a href="<?php echo $base_url ?>/mini-split.php">
                         <div class="icon">
-                            <img src="https://www.schmidtheating.com/images/mini-split.png" alt=""
-                                class="img-responsive">
+                            <img src="https://www.schmidtheating.com/images/mini-splits-unit-image-transparent (2).png"
+                                alt="" class="img-responsive">
                         </div>
                         <h4>Mini <br> Splits</h4>
                         <p> </p>
@@ -181,7 +181,7 @@
                 <div class="text-center blue-boxes">
                     <a href="<?php echo $base_url ?>/financing.php">
                         <div class="icon" style="cursor: pointer;">
-                            <img src="https://www.schmidtheating.com/images/Asset 2.png" alt="" class="img-responsive">
+                            <img src="https://www.schmidtheating.com/images/finance.png" alt="" class="img-responsive">
                         </div>
                         <h4>Financing</h4>
                         <p> </p>
