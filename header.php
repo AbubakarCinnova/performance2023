@@ -208,7 +208,7 @@
                         </button>
 
                         <a href="<?php echo $base_url ?>" class="navbar-brand visible-xs"> <img
-                                src="<?php echo $base_url ?>/img/logo.png" class="img-responsive" /></a>
+                                src="<?php echo $base_url ?>/img/logo.png" width="200" /></a>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
