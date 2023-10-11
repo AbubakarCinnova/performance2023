@@ -2387,7 +2387,7 @@ textarea {
 @media (min-width: 1060px) {
   .bubble-section {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
   }
 }
 
