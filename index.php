@@ -309,7 +309,7 @@
 
             <div class="col-sm-12 text-center">
 
-                <a href="testimonials.php" class="btn btn-default">Read More</a>
+                <a href="testimonials.php" class="btn btn-warning">Read More</a>
 
             </div>
         </div>
