@@ -1511,6 +1511,13 @@ a:hover {
 /* .mid_header {
   padding-top: 15px;
 } */
+@media (min-width: 991px) {
+  .mid_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
 .mid_header img {
   margin: 0 auto;
 }
