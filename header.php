@@ -156,7 +156,7 @@
         <div class="container ">
             <div class="row mid_header">
 
-                <div class="col-md-3 col-sm-12 col-xs-12">
+                <div class="col-md-3 col-sm-12 col-xs-12 call-to">
 
                     <h3>Call for appointment</h3>
                     <a href="callto:7409294328">
