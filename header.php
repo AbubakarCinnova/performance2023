@@ -175,7 +175,7 @@
                             style="width: 310px;" /></a> </div>
 
                 <div class="col-md-3 col-sm-12 text-center"> <a href="<?php echo $base_url ?>/contact-us.php"
-                        class="btn btn-warning" style="margin-top:18px;">Request Service</a></div>
+                        class="btn btn-warning header-btn">Request Service</a></div>
 
             </div>
         </div>
